@@ -11,10 +11,14 @@ st.markdown("### Upload your sales data and get a clean, formatted report")
 
 st.info("""
 **How to use this tool:**
-1. Prepare your `input_data.csv` file
-2. Click the button below to upload it
-3. Wait a few seconds for processing
-4. Download the formatted Excel report
+1. Open SalesHub and click "Account Performance"
+2. Right click the first + sign you see and select Expand --> All
+3. Click ... in the upper right corner of the box and select Export
+4. Select Data with Current Format
+5. Open the file and Save As 'input_data' and select Save As Type "CSV(comma delimited)" 
+6. Click the button below to upload it
+7. Wait a few seconds for processing
+8. Download the formatted Excel report
 
 **Note:** Make sure your file has the standard BlueBox columns.
 """)
